@@ -1,5 +1,6 @@
-# Created by https://www.toptal.com/developers/gitignore/api/c,clion+all
-# Edit at https://www.toptal.com/developers/gitignore?templates=c,clion+all
+
+# Created by https://www.toptal.com/developers/gitignore/api/c,cmake,clion+all
+# Edit at https://www.toptal.com/developers/gitignore?templates=c,cmake,clion+all
 
 ### C ###
 # Prerequisites
@@ -144,5 +145,24 @@ modules.xml
 # Sonarlint plugin
 .idea/sonarlint
 
-# End of https://www.toptal.com/developers/gitignore/api/c,clion+all
+### CMake ###
+CMakeLists.txt
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+CMakeUserPresets.json
 
+### CMake Patch ###
+# External projects
+*-prefix/
+
+# End of https://www.toptal.com/developers/gitignore/api/c,cmake,clion+all
+
+### ClangFormat ###
+.clang-format
